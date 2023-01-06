@@ -44,7 +44,7 @@ main {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 32px;
-    color:#ffffff;
+    color:#e9e9e9;
     padding-left: 140px;
 }
 
@@ -58,6 +58,85 @@ main {
     color: #005FAC;
     border-radius: 5px;
     border: 0;
+}
+/* About Me Section Styles */
+.about-me{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.about-title{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.about-description{
+    font-size: 16px;
+    color:#737272;
+    padding:0 200px;
+    margin-bottom: 60px;
+}
+.self-container{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 140px;
+}
+.self-container img{
+    width: 350px;
+    height: 350px;
+    border-radius: 400px;
+    border:10px double #005FAC;
+    margin-left: 50px;
+}
+.self-details .self-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.self-details .color-text{
+    color:#005FAC;
+}
+.self-details .self-sub-title{
+    font-size: 20px;
+    color: #737272;
+    margin-bottom: 20px;
+}
+.self-details .self-description{
+    color:#737272;
+}
+.self-details .download-cv-btn{
+    padding:20px 36px;
+    background: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    color:#fff;
+    outline: none;
+    border:0;
+    margin-top: 40px;
+}
+/* About Color Text Style */
+.about-me .about-color-text{
+    color:orange;
+}
+/* About Bar Styles */
+.about-me .about-bar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.about-bar-left{
+   width: 100px;
+   height: 4px;
+   background: orange;
+   border-radius:2px 0 0 2px ;
+}
+.about-bar-right{
+   width: 100px;
+   height: 4px;
+   background: #111;
+   border-radius: 0 2px 2px 0;
 }
 /* Life Of Failures Section Styles */
 .failures {
@@ -222,6 +301,10 @@ main {
     border-radius: 5px;
     color:#fff;
     margin-bottom: 16px;
+    outline: none;
+}
+.footer-subscribe input::placeholder{
+    color:#f1f1f1;
 }
 .footer-subscribe .subscribe-btn{
     padding:20px 36px;
