@@ -3,7 +3,9 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
-
+img{
+    max-width: 100%;
+}
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -67,8 +69,8 @@ main {
 }
 .about-title{
     font-size: 45px;
-    font-weight: 500;
-    margin-bottom: 5px;
+    font-weight: 700;
+    margin-bottom: 2px;
 }
 .about-description{
     font-size: 16px;
@@ -80,14 +82,14 @@ main {
     display: flex;
     align-items: center;
     text-align: left;
-    margin-top: 140px;
+    margin-top: 100px;
 }
-.self-container img{
-    width: 350px;
-    height: 350px;
-    border-radius: 400px;
-    border:10px double #005FAC;
+.self-container .self-img{
+    width: 100%;
     margin-left: 50px;
+}
+.self-details{
+    padding: 20px 100px;
 }
 .self-details .self-title{
     font-size: 30px;
@@ -118,7 +120,7 @@ main {
 }
 /* About Color Text Style */
 .about-me .about-color-text{
-    color:orange;
+    color:#005FAC;
 }
 /* About Bar Styles */
 .about-me .about-bar{
@@ -128,13 +130,13 @@ main {
 }
 .about-bar-left{
    width: 100px;
-   height: 4px;
-   background: orange;
+   height: 3px;
+   background: #005FAC;
    border-radius:2px 0 0 2px ;
 }
 .about-bar-right{
    width: 100px;
-   height: 4px;
+   height: 3px;
    background: #111;
    border-radius: 0 2px 2px 0;
 }
